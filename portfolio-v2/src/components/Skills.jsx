@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from './Layout'
 
-const About = () => {
+const Skills = () => {
     return (
-        <div className="about-container">
+        <div className="skills-container">
             <Layout />
         </div>
 
@@ -11,4 +11,4 @@ const About = () => {
 
 }
 
-export default About
+export default Skills

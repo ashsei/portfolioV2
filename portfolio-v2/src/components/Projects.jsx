@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar'
+import Layout from './Layout'
 
 const Projects = () => {
     return (
         <div className="projects-container">
-            <NavBar />
+            <Layout />
         </div>
 
     )

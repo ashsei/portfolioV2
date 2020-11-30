@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Layout from './Layout';
 
 const Resume = () => {
     return (
         <div className="resume-container">
-            <NavBar />
+            <Layout />
         </div>
 
     )

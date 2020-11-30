@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Layout from './Layout';
 
 const Landing = () => {
     return (
         <div className="landing-container">
-            <NavBar />
+            <Layout />
         </div>
 
     )

@@ -1,0 +1,37 @@
+/* Page Styling */
+
+html {
+  background-color: black;
+}
+
+/* NavBar Styling */
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 75px;
+}
+
+.sidebar ul {
+  transform: translatex(-50%);
+}
+
+.navbar-item {
+  list-style: none;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.navbar-item:hover i {
+  display: none;
+}
+
+.navbar-item:hover p {
+  display: initial;
+}
+
+.navbar-item p {
+  display: none;
+}

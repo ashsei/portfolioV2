@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar'
+import Layout from './Layout'
 
 const Contact = () => {
     return (
         <div className="contact-container">
-            <NavBar />
+            <Layout />
         </div>
 
     )
