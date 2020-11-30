@@ -1,8 +1,12 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Resume = () => {
     return (
-        <h1>Resume</h1>
+        <div className="resume-container">
+            <NavBar />
+        </div>
+
     )
 };
 
